@@ -7,14 +7,18 @@
 //
 
 #import "FriendsTableViewController.h"
+#import "FriendDetailViewController.h"
 #import "AppDelegate.h"
-#import "Reader.h"
+
 
 @interface FriendsTableViewController ()
 
 @property NSArray *friendsArray;
 @property NSManagedObjectContext *moc;
 @property NSArray *readerArray;
+@property (weak, nonatomic) IBOutlet UITableView *tableViewToo;
+
+
 
 
 @end
@@ -76,6 +80,23 @@
     
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([[segue identifier] isEqualToString:@"FriendDetailSegue"]) {
+        
+        NSLog(@"prepareForSegue: %@", segue.identifier);
+        
+        FriendsTableViewController *dvc = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableViewToo indexPathForCell:sender];
+        self.readerObject = [self.readerArray objectAtIndex:indexPath.row];
+        dvc.readerObject = self.readerObject;
+
+    } else {
+        // segue to add friend from reader list
+    }
+    
+    
+}
 
 
 /*

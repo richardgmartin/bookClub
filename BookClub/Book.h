@@ -1,5 +1,5 @@
 //
-//  Reader.h
+//  Book.h
 //  BookClub
 //
 //  Created by Richard Martin on 2016-01-30.
@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class Book;
+@class Reader;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Reader : NSManagedObject
+@interface Book : NSManagedObject
 
 // Insert code here to declare functionality of your managed object subclass
 
@@ -21,4 +21,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#import "Reader+CoreDataProperties.h"
+#import "Book+CoreDataProperties.h"

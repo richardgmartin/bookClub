@@ -38,8 +38,9 @@
             self.reader.name = str;
             self.reader.friend = @0;
             [self.moc save:nil];
-            [self.tableView reloadData];
+//            [self.tableView reloadData];
         }
+        [self loadReaders];
     }
 }
 
@@ -68,7 +69,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ReadersCellID" forIndexPath:indexPath];
     self.reader = [self.readerList objectAtIndex:indexPath.row];
     cell.textLabel.text = self.reader.name;
-    
     if ([self.reader.friend isEqual:[NSNumber numberWithBool:true]]) {
         cell.backgroundColor = [UIColor greenColor];        
     }

@@ -16,8 +16,12 @@
 		A35693701C595F8A00321DC4 /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = A356936F1C595F8A00321DC4 /* friends.json */; };
 		A35693731C595FD900321DC4 /* FriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35693721C595FD900321DC4 /* FriendsTableViewController.m */; };
 		A35693761C59609600321DC4 /* ReadersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35693751C59609600321DC4 /* ReadersTableViewController.m */; };
-		A35693841C598A3F00321DC4 /* Reader+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A35693811C598A3F00321DC4 /* Reader+CoreDataProperties.m */; };
-		A35693851C598A3F00321DC4 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = A35693831C598A3F00321DC4 /* Reader.m */; };
+		A374F5531C5D2DB500CC621A /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F54C1C5D2DB500CC621A /* Book+CoreDataProperties.m */; };
+		A374F5541C5D2DB500CC621A /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F54E1C5D2DB500CC621A /* Book.m */; };
+		A374F5551C5D2DB500CC621A /* Reader+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F5501C5D2DB500CC621A /* Reader+CoreDataProperties.m */; };
+		A374F5561C5D2DB500CC621A /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F5521C5D2DB500CC621A /* Reader.m */; };
+		A374F5591C5D368B00CC621A /* FriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F5581C5D368B00CC621A /* FriendDetailViewController.m */; };
+		A374F55C1C5D3F9900CC621A /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A374F55B1C5D3F9900CC621A /* BookDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +39,18 @@
 		A35693721C595FD900321DC4 /* FriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewController.m; sourceTree = "<group>"; };
 		A35693741C59609600321DC4 /* ReadersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadersTableViewController.h; sourceTree = "<group>"; };
 		A35693751C59609600321DC4 /* ReadersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadersTableViewController.m; sourceTree = "<group>"; };
-		A35693801C598A3F00321DC4 /* Reader+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reader+CoreDataProperties.h"; sourceTree = "<group>"; };
-		A35693811C598A3F00321DC4 /* Reader+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reader+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A35693821C598A3F00321DC4 /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
-		A35693831C598A3F00321DC4 /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
+		A374F54B1C5D2DB500CC621A /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Book+CoreDataProperties.h"; path = "BookClub/Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A374F54C1C5D2DB500CC621A /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Book+CoreDataProperties.m"; path = "BookClub/Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A374F54D1C5D2DB500CC621A /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = BookClub/Book.h; sourceTree = "<group>"; };
+		A374F54E1C5D2DB500CC621A /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = BookClub/Book.m; sourceTree = "<group>"; };
+		A374F54F1C5D2DB500CC621A /* Reader+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Reader+CoreDataProperties.h"; path = "BookClub/Reader+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A374F5501C5D2DB500CC621A /* Reader+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Reader+CoreDataProperties.m"; path = "BookClub/Reader+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A374F5511C5D2DB500CC621A /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reader.h; path = BookClub/Reader.h; sourceTree = "<group>"; };
+		A374F5521C5D2DB500CC621A /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reader.m; path = BookClub/Reader.m; sourceTree = "<group>"; };
+		A374F5571C5D368B00CC621A /* FriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailViewController.h; sourceTree = "<group>"; };
+		A374F5581C5D368B00CC621A /* FriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailViewController.m; sourceTree = "<group>"; };
+		A374F55A1C5D3F9900CC621A /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		A374F55B1C5D3F9900CC621A /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,14 @@
 		A35693491C595E3F00321DC4 = {
 			isa = PBXGroup;
 			children = (
+				A374F54B1C5D2DB500CC621A /* Book+CoreDataProperties.h */,
+				A374F54C1C5D2DB500CC621A /* Book+CoreDataProperties.m */,
+				A374F54D1C5D2DB500CC621A /* Book.h */,
+				A374F54E1C5D2DB500CC621A /* Book.m */,
+				A374F54F1C5D2DB500CC621A /* Reader+CoreDataProperties.h */,
+				A374F5501C5D2DB500CC621A /* Reader+CoreDataProperties.m */,
+				A374F5511C5D2DB500CC621A /* Reader.h */,
+				A374F5521C5D2DB500CC621A /* Reader.m */,
 				A35693541C595E3F00321DC4 /* BookClub */,
 				A35693531C595E3F00321DC4 /* Products */,
 			);
@@ -73,14 +93,14 @@
 			children = (
 				A35693581C595E3F00321DC4 /* AppDelegate.h */,
 				A35693591C595E3F00321DC4 /* AppDelegate.m */,
-				A35693801C598A3F00321DC4 /* Reader+CoreDataProperties.h */,
-				A35693811C598A3F00321DC4 /* Reader+CoreDataProperties.m */,
-				A35693821C598A3F00321DC4 /* Reader.h */,
-				A35693831C598A3F00321DC4 /* Reader.m */,
-				A35693711C595FD900321DC4 /* FriendsTableViewController.h */,
-				A35693721C595FD900321DC4 /* FriendsTableViewController.m */,
 				A35693741C59609600321DC4 /* ReadersTableViewController.h */,
 				A35693751C59609600321DC4 /* ReadersTableViewController.m */,
+				A35693711C595FD900321DC4 /* FriendsTableViewController.h */,
+				A35693721C595FD900321DC4 /* FriendsTableViewController.m */,
+				A374F5571C5D368B00CC621A /* FriendDetailViewController.h */,
+				A374F5581C5D368B00CC621A /* FriendDetailViewController.m */,
+				A374F55A1C5D3F9900CC621A /* BookDetailViewController.h */,
+				A374F55B1C5D3F9900CC621A /* BookDetailViewController.m */,
 				A356935E1C595E3F00321DC4 /* Main.storyboard */,
 				A35693641C595E3F00321DC4 /* Assets.xcassets */,
 				A35693661C595E3F00321DC4 /* LaunchScreen.storyboard */,
@@ -171,13 +191,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A35693841C598A3F00321DC4 /* Reader+CoreDataProperties.m in Sources */,
+				A374F55C1C5D3F9900CC621A /* BookDetailViewController.m in Sources */,
 				A356935A1C595E3F00321DC4 /* AppDelegate.m in Sources */,
 				A35693731C595FD900321DC4 /* FriendsTableViewController.m in Sources */,
+				A374F5551C5D2DB500CC621A /* Reader+CoreDataProperties.m in Sources */,
+				A374F5561C5D2DB500CC621A /* Reader.m in Sources */,
 				A35693631C595E3F00321DC4 /* BookClub.xcdatamodeld in Sources */,
-				A35693851C598A3F00321DC4 /* Reader.m in Sources */,
+				A374F5541C5D2DB500CC621A /* Book.m in Sources */,
 				A35693571C595E3F00321DC4 /* main.m in Sources */,
+				A374F5531C5D2DB500CC621A /* Book+CoreDataProperties.m in Sources */,
 				A35693761C59609600321DC4 /* ReadersTableViewController.m in Sources */,
+				A374F5591C5D368B00CC621A /* FriendDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +348,7 @@
 				A356936E1C595E3F00321DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

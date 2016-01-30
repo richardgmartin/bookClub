@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reader.h"
 
 @interface FriendsTableViewController : UITableViewController
+
+@property Reader *readerObject;
 
 @end

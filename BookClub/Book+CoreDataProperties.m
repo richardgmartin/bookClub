@@ -1,5 +1,5 @@
 //
-//  Reader+CoreDataProperties.m
+//  Book+CoreDataProperties.m
 //  BookClub
 //
 //  Created by Richard Martin on 2016-01-30.
@@ -9,12 +9,13 @@
 //  to delete and recreate this implementation file for your updated model.
 //
 
-#import "Reader+CoreDataProperties.h"
+#import "Book+CoreDataProperties.h"
 
-@implementation Reader (CoreDataProperties)
+@implementation Book (CoreDataProperties)
 
-@dynamic friend;
-@dynamic name;
-@dynamic books;
+@dynamic author;
+@dynamic detail;
+@dynamic title;
+@dynamic readers;
 
 @end
